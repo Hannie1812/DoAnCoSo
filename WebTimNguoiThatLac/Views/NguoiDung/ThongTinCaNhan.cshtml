@@ -10,8 +10,8 @@
     <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
             <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-                <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Trang Chủ</a></span> <span>Thông Tin Cá Nhân</span></p>
-                <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Thông Tin Cá Nhân</h1>
+                <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Trang Chủ</a></span> <span>@ViewData["Title"]</span></p>
+                <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">@ViewData["Title"]</h1>
             </div>
         </div>
     </div>
@@ -22,7 +22,7 @@
             <div class="card mt-5">
                 <div class="card-header bg-primary text-white d-flex">
                     <div>
-                        <h2 class="card-title">Thông Tin Cá Nhân</h2>
+                        <h2 class="card-title">@ViewData["Title"]</h2>
                     </div>
                     <div class="ms-auto">
                         <a asp-action="ThemNguoiCanTim" asp-controller="TimNguoi" class="btn btn-success">Thêm Bài tìm Kiếm</a>
