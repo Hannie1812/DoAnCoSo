@@ -32,7 +32,7 @@
 
             <div class="form-group mb-3">
                 <label asp-for="Input.CCCD"><i class="fas fa-id-card"></i> Số CCCD</label>
-                <input asp-for="Input.CCCD" id="cccdInput" readonly class="form-control" required />
+                <input asp-for="Input.CCCD" id="cccdInput" class="form-control" required />
                 <span asp-validation-for="Input.CCCD" class="text-danger"></span>
             </div>
             <div class="form-floating mb-3">
@@ -62,30 +62,20 @@
         <section>
             <h3>Use another service to register.</h3>
             <hr />
-            @{
-                if ((Model.ExternalLogins?.Count ?? 0) == 0)
-                {
-                    <div>
-                        <p>
-                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">article
-                            about setting up this ASP.NET application to support logging in via external services</a>.
-                        </p>
-                    </div>
-                }
-                else
-                {
-                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
-                        <div>
-                            <p>
-                                @foreach (var provider in Model.ExternalLogins!)
-                                {
-                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
-                                }
-                            </p>
-                        </div>
-                    </form>
-                }
-            }
+            <form asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                <div>
+                    <p>
+                        <button type="submit" class="btn btn-danger" name="provider" value="Google">Đăng nhập bằng Google</button>
+                    </p>
+                </div>
+            </form>
+            <form asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                <div>
+                    <p>
+                        <button type="submit" class="btn btn-danger" name="provider" value="Facebook">Đăng nhập bằng Facebook</button>
+                    </p>
+                </div>
+            </form>
         </section>
     </div>
 </div>

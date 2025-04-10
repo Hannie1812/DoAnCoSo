@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\WebTimNguoiThatLac\\WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj": {}
+    "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\WebTimNguoiThatLac\\WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\WebTimNguoiThatLac\\WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj",
         "projectName": "WebTimNguoiThatLac",
-        "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\WebTimNguoiThatLac\\WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\WebTimNguoiThatLac\\WebTimNguoiThatLac\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -66,6 +66,14 @@
             "MailKit": {
               "target": "Package",
               "version": "[4.11.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[8.0.14, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",

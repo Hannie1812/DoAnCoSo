@@ -4,8 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
 using System.Data;
 using System.Linq;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using WebTimNguoiThatLac.Areas.Admin.Models;
 using WebTimNguoiThatLac.Data;
@@ -19,15 +21,16 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
     public class NguoiDungController : Controller
     {
         private ApplicationDbContext db;
-        private UserManager<ApplicationUser> userManager;
+        private UserManager<ApplicationUser> _userManager;
         private RoleManager<IdentityRole> roleManager;
+        private SignInManager<ApplicationUser> _signInManager;
 
-        public  NguoiDungController(ApplicationDbContext db, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+        public  NguoiDungController(ApplicationDbContext db, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager)
         {
             this.db = db;
-            this.userManager = userManager;
+            this._userManager = userManager;
             this.roleManager = roleManager;
-           
+            _signInManager = signInManager;
         }
        
         public async Task<IActionResult> Index(string TimKiem = "", int Page = 1)
@@ -140,7 +143,7 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
             List<IdentityRole> ds = await db.Roles.ToListAsync();
             var dsLTT = new SelectList(ds, "Name", "Name");
             ViewBag.DanhSachRole = dsLTT;
-            var roles = await userManager.GetRolesAsync(x);
+            var roles = await _userManager.GetRolesAsync(x);
             ViewBag.RoleHienTai = roles.Any() ? roles[0] : "";
             return View(x);
         }
@@ -159,10 +162,10 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
                 if (LoaiTaiKhoan != null)
                 {
 
-                    var dsrole = await userManager.GetRolesAsync(x);
-                    await userManager.RemoveFromRolesAsync(x, dsrole);
+                    var dsrole = await _userManager.GetRolesAsync(x);
+                    await _userManager.RemoveFromRolesAsync(x, dsrole);
 
-                    await userManager.AddToRoleAsync(x, LoaiTaiKhoan);
+                    await _userManager.AddToRoleAsync(x, LoaiTaiKhoan);
 
                 }
 
@@ -181,7 +184,7 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
             List<IdentityRole> ds = await db.Roles.ToListAsync();
             var dsLTT = new SelectList(ds, "Id", "Name");
             ViewBag.DanhSachRole = dsLTT;
-            var roles = await userManager.GetRolesAsync(t);
+            var roles = await _userManager.GetRolesAsync(t);
             ViewBag.RoleHienTai = roles.Any() ? roles[0] : "";
             return View(t);
 
@@ -272,11 +275,11 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
 
 
 
-                var usrole = await userManager.GetRolesAsync(y);
+                var usrole = await _userManager.GetRolesAsync(y);
 
                 if (usrole != null)
                 {
-                    await userManager.RemoveFromRolesAsync(y, usrole);
+                    await _userManager.RemoveFromRolesAsync(y, usrole);
                 }
 
                 db.Users.Remove(y);
@@ -292,70 +295,57 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
             }
         }
 
+        [HttpPost]
+        [AllowAnonymous]
+        public IActionResult ExternalLogin(string provider, string returnUrl = null)
+        {
+            var redirectUrl = Url.Action("ExternalLoginCallback", "Account", new { returnUrl });
+            var properties = _signInManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
+            return Challenge(properties, provider);
+        }
+        [AllowAnonymous]
+        public async Task<IActionResult> ExternalLoginCallback(string returnUrl = null, string remoteError = null)
+        {
+            returnUrl = returnUrl ?? Url.Content("~/");
+            if (remoteError != null)
+            {
+                ModelState.AddModelError(string.Empty, $"Lỗi từ nhà cung cấp: {remoteError}");
+                return RedirectToAction(nameof(Login));
+            }
 
-        //[HttpPost]
-        //public async Task<IActionResult> Delete(string id)
-        //{
-        //    try
-        //    {
-        //        ApplicationUser y = await db.Users.FirstOrDefaultAsync(i => i.Id == id);
-        //        if (y == null)
-        //        {
-        //            return Json(new { success = false, message = "Ko Có Id Cần Xóa" });
-        //        }
+            var info = await _signInManager.GetExternalLoginInfoAsync();
+            if (info == null)
+            {
+                return RedirectToAction(nameof(Login));
+            }
 
-        //        // Xóa các bài tìm người liên quan
-        //        List<TimNguoi> ds = await db.TimNguois
-        //                                    .Include(u => u.AnhTimNguois)
-        //                                    .Where(i => i.IdNguoiDung == id)
-        //                                    .ToListAsync();
+            var result = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false);
 
-        //        foreach (TimNguoi i in ds)
-        //        {
-        //            // Xóa ảnh liên quan đến bài tìm người
-        //            var dsHA = await db.AnhTimNguois
-        //                               .Where(m => m.IdNguoiCanTim.HasValue && m.IdNguoiCanTim.Value == i.Id)
-        //                               .ToListAsync();
-        //            db.AnhTimNguois.RemoveRange(dsHA);
+            if (result.Succeeded)
+            {
+                return LocalRedirect(returnUrl);
+            }
+            else
+            {
+                // Nếu user chưa có tài khoản → tạo mới
+                var email = info.Principal.FindFirstValue(ClaimTypes.Email);
+                if (email != null)
+                {
+                    var user = new ApplicationUser { UserName = email, Email = email };
+                    var createResult = await _userManager.CreateAsync(user);
+                    if (createResult.Succeeded)
+                    {
+                        await _userManager.AddLoginAsync(user, info);
+                        await _signInManager.SignInAsync(user, isPersistent: false);
+                        return LocalRedirect(returnUrl);
+                    }
+                }
 
-        //            // Xóa bình luận của bài viết
-        //            var dsBLBV = await db.BinhLuans
-        //                               .Where(m => m.IdBaiViet == i.Id)
-        //                               .ToListAsync();
-        //            db.BinhLuans.RemoveRange(dsBLBV);
-
-        //            // Xóa bình luận của us
-        //            var dsBLus = await db.BinhLuans
-        //                               .Where(m => m.UserId == y.Id)
-        //                               .ToListAsync();
-        //            db.BinhLuans.RemoveRange(dsBLus);
-
-        //            // Xóa bài tìm người
-        //            db.TimNguois.Remove(i);
-        //        }
-
-        //        // Xóa vai trò của user
-        //        var usrole = await userManager.GetRolesAsync(y);
-        //        if (usrole != null && usrole.Any())
-        //        {
-        //            await userManager.RemoveFromRolesAsync(y, usrole);
-        //        }
-
-        //        // Xóa user
-        //        db.Users.Remove(y);
-
-        //        // Lưu thay đổi chỉ một lần
-        //        await db.SaveChangesAsync();
-
-        //        return Json(new { success = true, message = "Xóa thành công" });
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return Json(new { success = false, message = "Lỗi: " + ex.InnerException?.Message ?? ex.Message });
-        //    }
-
-        //}
-
+                // Nếu thất bại
+                ViewBag.ErrorTitle = "Không thể đăng nhập bằng tài khoản ngoài.";
+                return View("Error");
+            }
+        }
 
     }
 }
