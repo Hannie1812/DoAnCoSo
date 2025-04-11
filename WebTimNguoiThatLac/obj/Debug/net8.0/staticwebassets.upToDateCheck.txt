@@ -2298,6 +2298,7 @@ wwwroot\uploads\AnhTinNhan\2_48e366d742f24bcbbf9cd96de3c70deb.jpg
 wwwroot\uploads\BinhLuan\1_5e5704c4e040423895fdff4025279b27.jpg
 wwwroot\uploads\BinhLuan\1_b2cb8bb024054dc693d449baf64c76b2.jpg
 wwwroot\uploads\BinhLuan\1_bdb4efe32e87476ebf70170ff21166dd.jpg
+wwwroot\uploads\BinhLuan\event-5_37009bfea31441e8bbdf08cc1142023e.jpg
 wwwroot\uploads\BinhLuan\HocMay - Sao chép_910ff0a777784253a2071af783d0eb13.jpg
 wwwroot\uploads\BinhLuan\team-4_fb27cdcb7db4469b96332d1fc3275511.jpg
 wwwroot\uploads\BinhLuan\team-5_ec94414503cc4fac87df0b6f26faf483.jpg
@@ -2313,3 +2314,15 @@ wwwroot\uploads\GioiThieu\bg_3_a4aa9b42da894d90a7603353716498d2.jpg
 wwwroot\uploads\TinTuc\bg_1_5cf9cf2134504c579c4d1e05315c1677.jpg
 wwwroot\uploads\TinTuc\bg_5_5807881d68764e519201c6be46038162.jpg
 wwwroot\uploads\TinTuc\bg_7_5a34e1354a3e4f5ba1e0b5c996176ba6.jpg
+wwwroot\uploads\TinTuc\event-4_063236293a04499ea255397b52c97ba3.jpg
+wwwroot\uploads\TrungBayHinhAnh\1_b71c26c029af473ca33102bfbec3702c.jpg
+wwwroot\uploads\TrungBayHinhAnh\cause-1_158455876d88491fb6f58de5a2165937.jpg
+wwwroot\uploads\TrungBayHinhAnh\cause-2_1f10c9103dc24199a140e51a9504c59f.jpg
+wwwroot\uploads\TrungBayHinhAnh\cause-3_51e19c5370e94886ba53dc643026a183.jpg
+wwwroot\uploads\TrungBayHinhAnh\cause-4_c4c03496735146e8b1ef81719785fdf3.jpg
+wwwroot\uploads\TrungBayHinhAnh\cause-5_249282f889e84d499195515787a5d5cb.jpg
+wwwroot\uploads\TrungBayHinhAnh\cause-6_d0169e95afca425aa5e0ad14b70faa01.jpg
+wwwroot\uploads\TrungBayHinhAnh\cause-6_f23bf995e0e649a8817303f5c50ec1a2.jpg
+wwwroot\uploads\TrungBayHinhAnh\event-1_2bd00e63e56f4d50ae7044795d9094b0.jpg
+wwwroot\uploads\TrungBayHinhAnh\event-5_1143b09bd1ea4447869d66ffa1589fb2.jpg
+wwwroot\uploads\TrungBayHinhAnh\image_3_086b3986b1ed4d16ad0cc095c709b7ad.jpg

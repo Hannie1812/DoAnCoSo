@@ -39,7 +39,7 @@ namespace WebTimNguoiThatLac.Controllers
                                         .Where(i => i.active == true)
                                         .ToList().OrderByDescending(x => x.Id);
                 List<TimNguoi> DSTimkiem = new List<TimNguoi>();
-                foreach(TimNguoi i in ds)
+                foreach (TimNguoi i in ds)
                 {
                     TimKiem = WebTimNguoiThatLac.BoTro.Filter.ChuyenCoDauThanhKhongDau(TimKiem);
                     string r1 = WebTimNguoiThatLac.BoTro.Filter.ChuyenCoDauThanhKhongDau(i.HoTen);
@@ -69,7 +69,7 @@ namespace WebTimNguoiThatLac.Controllers
                 }
                 return View(DSTimkiem);
             }
-           
+
         }
 
         public IActionResult Privacy()
@@ -79,10 +79,14 @@ namespace WebTimNguoiThatLac.Controllers
 
         public async Task<IActionResult> GioiThieu()
         {
-            GioiThieu ds = await db.GioiThieus.FirstOrDefaultAsync(i => i.Active==true);
+            GioiThieu ds = await db.GioiThieus.FirstOrDefaultAsync(i => i.Active == true);
             return View(ds);
         }
+        public async Task<IActionResult> LienHe()
+        {
 
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

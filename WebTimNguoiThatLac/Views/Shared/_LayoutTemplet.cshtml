@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="~/clients/plugins/summernote/summernote-bs4.min.css">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 
-    <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,400i,600,700" rel="stylesheet">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+
 
     <link rel="stylesheet" href="~/Templet/css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="~/Templet/css/animate.css">
@@ -40,6 +43,14 @@
             border-radius: 8px;
             overflow: hidden;
         }</style>
+
+
+    <!-- owl -->
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+    
     @await RenderSectionAsync("Styles", required: false)
 
 </head>
@@ -54,17 +65,16 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="/Home" class="nav-link">Trang Chủ</a></li>
+                    <li class="nav-item"><a href="/Home" class="nav-link">Trang Chủ</a></li>
                     <li class="nav-item"><a href="/Home/GioiThieu" class="nav-link">Giới Thiệu</a></li>
                     <li class="nav-item"><a href="/TimNguoi" class="nav-link">Bài Viết</a></li>
                     <li class="nav-item"><a href="/NguoiDung" class="nav-link">Người Dùng</a></li>
                     <li class="nav-item"><a href="/TinTuc" class="nav-link">Tin Tức</a></li>
-                    <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="/TrungBay" class="nav-link">Trưng Bày</a></li>
                     <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="/Home/LienHe" class="nav-link">Liên Hệ</a></li>
                    
                 </ul>
-               
                 @await Component.InvokeAsync("BinhLuanChuaDoc")
                 <ul class="navbar-nav">
                     <partial name="_LoginPartial.cshtml"></partial>
@@ -225,6 +235,73 @@
             // Kiểm tra thông báo mới mỗi 30 giây
             updateNotificationCount();
             setInterval(updateNotificationCount, 30000);
+        });
+    </script>
+
+    <!-- owl -->
+    <!-- jQuery (Owl cần jQuery để hoạt động) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+            $(document).ready(function(){
+            var owl = $("#carouselLeft");
+
+            owl.owlCarousel({
+                items: 3,       // Hiển thị 5 item cùng lúc
+                loop: true,    // lặp vô hạn
+                margin: 10,     // Khoảng cách giữa các item
+                nav: false,     //  điều hướng mặc định
+                dots: true,    //  dấu chấm
+                autoplay: false, // Không tự chạy
+                slideBy: 1,     // Mỗi lần di chuyển 1 item
+                responsive: {
+                0: {
+                    items: 1  // Khi màn hình nhỏ hơn 768px, hiển thị 1 item
+                },
+                768: {
+                    items: 3  // Khi màn hình từ 768px trở lên, hiển thị 5 items
+                }
+                }
+            });
+            // Nút điều khiển
+            $("#prevSlide").click(function(){
+                owl.trigger("prev.owl.carousel");
+            });
+            $("#nextSlide").click(function(){
+                owl.trigger("next.owl.carousel");
+            });
+        });
+    </script>
+    <script>
+            $(document).ready(function(){
+            var owl = $("#carouselTinTuc");
+
+            owl.owlCarousel({
+                items: 3,       // Hiển thị 5 item cùng lúc
+                loop: true,    // lặp vô hạn
+                margin: 10,     // Khoảng cách giữa các item
+                nav: false,     //  điều hướng mặc định
+                dots: true,    //  dấu chấm
+                autoplay: false, // Không tự chạy
+                slideBy: 1,     // Mỗi lần di chuyển 1 item
+                responsive: {
+                0: {
+                    items: 1  // Khi màn hình nhỏ hơn 768px, hiển thị 1 item
+                },
+                768: {
+                    items: 3  // Khi màn hình từ 768px trở lên, hiển thị 5 items
+                }
+                }
+            });
+            // Nút điều khiển
+            $("#prevSlide").click(function(){
+                owl.trigger("prev.owl.carousel");
+            });
+            $("#nextSlide").click(function(){
+                owl.trigger("next.owl.carousel");
+            });
         });
     </script>
 

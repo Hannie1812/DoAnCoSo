@@ -41400,6 +41400,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\BinhLuan\1_bdb4efe32e87476ebf70170ff21166dd.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\BinhLuan\event-5_37009bfea31441e8bbdf08cc1142023e.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebTimNguoiThatLac</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebTimNguoiThatLac</BasePath>
+      <RelativePath>uploads/BinhLuan/event-5_37009bfea31441e8bbdf08cc1142023e.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fvllmfpuqx</Fingerprint>
+      <Integrity>BRw7nQ7zr7uKdGtA8pSYvnYP33RotYU4+2vkMXVYx/g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\BinhLuan\event-5_37009bfea31441e8bbdf08cc1142023e.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\BinhLuan\HocMay - Sao chép_910ff0a777784253a2071af783d0eb13.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebTimNguoiThatLac</SourceId>
@@ -41669,6 +41687,222 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TinTuc\bg_7_5a34e1354a3e4f5ba1e0b5c996176ba6.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TinTuc\event-4_063236293a04499ea255397b52c97ba3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebTimNguoiThatLac</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebTimNguoiThatLac</BasePath>
+      <RelativePath>uploads/TinTuc/event-4_063236293a04499ea255397b52c97ba3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rgx0zw26ur</Fingerprint>
+      <Integrity>a8yTNAW0pdUxcMhB74xb6L0nnrlKLjrWeJo+S9JxOZM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TinTuc\event-4_063236293a04499ea255397b52c97ba3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\1_b71c26c029af473ca33102bfbec3702c.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebTimNguoiThatLac</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebTimNguoiThatLac</BasePath>
+      <RelativePath>uploads/TrungBayHinhAnh/1_b71c26c029af473ca33102bfbec3702c.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c50ie1wdww</Fingerprint>
+      <Integrity>wHwWxUEr1UHE2QInc+GU6Ifw4wpeMKjrv1HySFeYG30=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\1_b71c26c029af473ca33102bfbec3702c.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-1_158455876d88491fb6f58de5a2165937.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebTimNguoiThatLac</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebTimNguoiThatLac</BasePath>
+      <RelativePath>uploads/TrungBayHinhAnh/cause-1_158455876d88491fb6f58de5a2165937.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wxd5kglk1x</Fingerprint>
+      <Integrity>1PnMBWMsAAY1jYQCdkdvnULvRY9ARd9PJUyk3ewP4vM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-1_158455876d88491fb6f58de5a2165937.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-2_1f10c9103dc24199a140e51a9504c59f.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebTimNguoiThatLac</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebTimNguoiThatLac</BasePath>
+      <RelativePath>uploads/TrungBayHinhAnh/cause-2_1f10c9103dc24199a140e51a9504c59f.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gnsorql0hw</Fingerprint>
+      <Integrity>9GVIsBqQVmDY3f3EqwKqxMt6nRgohvFggKCoelka/yU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-2_1f10c9103dc24199a140e51a9504c59f.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-3_51e19c5370e94886ba53dc643026a183.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebTimNguoiThatLac</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebTimNguoiThatLac</BasePath>
+      <RelativePath>uploads/TrungBayHinhAnh/cause-3_51e19c5370e94886ba53dc643026a183.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>43jfwxss7u</Fingerprint>
+      <Integrity>YBKiVXSnabAAcOOZSrAtydkQPZzSLFW3Rl4CJJ3l1A0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-3_51e19c5370e94886ba53dc643026a183.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-4_c4c03496735146e8b1ef81719785fdf3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebTimNguoiThatLac</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebTimNguoiThatLac</BasePath>
+      <RelativePath>uploads/TrungBayHinhAnh/cause-4_c4c03496735146e8b1ef81719785fdf3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e4xc9cp118</Fingerprint>
+      <Integrity>rlsntbdk8OAAcKX2PAlmMf2lPLkVQjjZ0PbYV5++X18=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-4_c4c03496735146e8b1ef81719785fdf3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-5_249282f889e84d499195515787a5d5cb.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebTimNguoiThatLac</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebTimNguoiThatLac</BasePath>
+      <RelativePath>uploads/TrungBayHinhAnh/cause-5_249282f889e84d499195515787a5d5cb.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gpbzefyysj</Fingerprint>
+      <Integrity>BDA8OxQ3r9BZC5sBnvlLst3qFfgmQZ+InfvIa+FSfM0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-5_249282f889e84d499195515787a5d5cb.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-6_d0169e95afca425aa5e0ad14b70faa01.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebTimNguoiThatLac</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebTimNguoiThatLac</BasePath>
+      <RelativePath>uploads/TrungBayHinhAnh/cause-6_d0169e95afca425aa5e0ad14b70faa01.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pq9yn56may</Fingerprint>
+      <Integrity>0fCQRuINSklo/s/YAxUwAcyFI23WUTbPs8DOJk9JJ9w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-6_d0169e95afca425aa5e0ad14b70faa01.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-6_f23bf995e0e649a8817303f5c50ec1a2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebTimNguoiThatLac</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebTimNguoiThatLac</BasePath>
+      <RelativePath>uploads/TrungBayHinhAnh/cause-6_f23bf995e0e649a8817303f5c50ec1a2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pq9yn56may</Fingerprint>
+      <Integrity>0fCQRuINSklo/s/YAxUwAcyFI23WUTbPs8DOJk9JJ9w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\cause-6_f23bf995e0e649a8817303f5c50ec1a2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\event-1_2bd00e63e56f4d50ae7044795d9094b0.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebTimNguoiThatLac</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebTimNguoiThatLac</BasePath>
+      <RelativePath>uploads/TrungBayHinhAnh/event-1_2bd00e63e56f4d50ae7044795d9094b0.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mzayqhx5so</Fingerprint>
+      <Integrity>Ivr7dar8rkwqU8g+UvD70wQtCBP1rawrz3r3nYkK7CY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\event-1_2bd00e63e56f4d50ae7044795d9094b0.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\event-5_1143b09bd1ea4447869d66ffa1589fb2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebTimNguoiThatLac</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebTimNguoiThatLac</BasePath>
+      <RelativePath>uploads/TrungBayHinhAnh/event-5_1143b09bd1ea4447869d66ffa1589fb2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fvllmfpuqx</Fingerprint>
+      <Integrity>BRw7nQ7zr7uKdGtA8pSYvnYP33RotYU4+2vkMXVYx/g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\event-5_1143b09bd1ea4447869d66ffa1589fb2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\image_3_086b3986b1ed4d16ad0cc095c709b7ad.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebTimNguoiThatLac</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebTimNguoiThatLac</BasePath>
+      <RelativePath>uploads/TrungBayHinhAnh/image_3_086b3986b1ed4d16ad0cc095c709b7ad.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8g2qaxapkl</Fingerprint>
+      <Integrity>6Nw0jYmtFtJI72FjMKEOa5bG82HWjdJU5DQJT1xOsbk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TrungBayHinhAnh\image_3_086b3986b1ed4d16ad0cc095c709b7ad.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WebTimNguoiThatLac.gysxktyg35.bundle.scp.css'))">
       <SourceType>Package</SourceType>

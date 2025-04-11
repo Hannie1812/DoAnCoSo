@@ -1,6 +1,4 @@
-﻿
-
-@{
+﻿@{
     ViewData["Title"] = "Trang Chủ Admin";
 }
 
@@ -41,6 +39,9 @@
         <li class="nav-item d-none d-sm-inline-block">
             <a href="/Admin/TinTuc" class="nav-link"> Tin Tức</a>
         </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/Admin/TrungBay" class="nav-link"> Trưng Bày Hình Ảnh</a>
+        </li>
     </ul>
     <ul class="navbar-nav ml-auto">
         <!-- new -->
@@ -69,7 +70,7 @@
     var trangThais = ViewBag.TrangThaiStats as List<dynamic> ?? new List<dynamic>();
     var gioiTinhData = ViewBag.GioiTinhStats as dynamic;
 
-  
+
 
     // Lấy dữ liệu từ ViewBag
     var ngayLabels = ViewBag.NgayLabels as List<string> ?? new List<string>();
@@ -93,7 +94,7 @@
 }
 
 <div class="container-fluid">
-    
+
 
     <!-- Card lọc dữ liệu -->
     <div class="card card-primary card-outline">

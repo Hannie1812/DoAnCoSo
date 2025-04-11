@@ -133,27 +133,27 @@
                                             <div class="modal-body">
                                                 <div class="row">@i.ApplicationUser?.Email</div>
                                                 <div class="row">
-                                                    <div class="col-6" >
+                                                    <div class="col-6">
                                                         <div class="row">
                                                             <div class="col-4 fw-bold">ID</div>
                                                             <div class="col-8">@i.Id</div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-6" >
+                                                    <div class="col-6">
                                                         <div class="row">
                                                             <div class="col-4 fw-bold">Tên người cần tìm </div>
                                                             <div class="col-8">@i.HoTen</div>
                                                         </div>
                                                     </div>
-                                                </div> 
-                                             
-                                             
+                                                </div>
+
+
                                                 <div class="row">
                                                     <div class="col-6">
                                                         <div class="row">
                                                             <div class="col-4 fw-bold">Giới Tính</div>
                                                             <div class="col-8">
-                                                                @if(@i.GioiTinh == 1)
+                                                                @if (@i.GioiTinh == 1)
                                                                 {
                                                                     <p>Nam</p>
                                                                 }
@@ -210,7 +210,7 @@
                                                                 <img src="@z.HinhAnh" width="50" />
                                                             }
                                                         }
-                                                    
+
                                                     </div>
                                                     <div class="col-12">
                                                         @Html.Raw(i.MoTa)
@@ -321,7 +321,7 @@
                                                 @Html.Raw(i.MoTa)
                                             </div>
                                         </div>
-                 
+
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
@@ -337,13 +337,16 @@
     </div>
     <!-- Hiển thị phân trang -->
     <div class=" d-flex justify-content-center  text-center">
-        @Html.PagedListPager(Model, Page => Url.Action("Index",
-                 new { Page, ViewBag.TimKiem }),
-                 new PagedListRenderOptions
-        {
-            LiElementClasses = new[] { "page-item" },
-            PageClasses = new[] { "page-link" }
-        })
+        <div>
+            @Html.PagedListPager(Model, Page => Url.Action("Index",
+                     new { Page, ViewBag.TimKiem }),
+                     new PagedListRenderOptions
+            {
+                LiElementClasses = new[] { "page-item" },
+                PageClasses = new[] { "page-link" }
+            })
+        </div>
+
     </div>
 
     <div class="card-footer">
@@ -390,7 +393,7 @@
                         if(trangthai === 'x')
                         {
                             s = `<i class="fa-regular fa-circle-check text-success hoatdong" id="logo_`+id+`" data-check="v" data-id="`+id+`"></i>`;
-                            $("#logo_"+id).remove()                           
+                            $("#logo_"+id).remove()
                         }
                         else
                         {

@@ -146,7 +146,7 @@
                                         </td>
                                     }
                                     <td>
-                                        <a asp-action="Update" asp-area="Admin" asp-controller="GioiThieu" asp-route-id="@i.Id" class="btn btn-info">
+                                        <a asp-action="Update" asp-area="Admin" asp-controller="TinTuc" asp-route-id="@i.Id" class="btn btn-info">
                                             <i class="fas fa-edit"></i>
                                             Sửa
                                         </a>
@@ -165,7 +165,7 @@
                                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                     </div>
                                                     <div class="modal-body">
-                                                        
+
                                                         <h2>@i.TieuDe </h2>
                                                         <div class="container">
                                                             <img src="@i.HinhAnh" alt="Hình Ảnh" style="width: 100%; height: 100%;" />
@@ -209,7 +209,7 @@
                                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
                                                         <button type="button" onclick="XoaGioiThieu('@i.Id');" class="btn btn-danger" data-bs-dismiss="modal">Xóa</button>
                                                     </div>
-                                                        
+
                                                 </div>
                                             </div>
                                     </td>
@@ -276,17 +276,18 @@
                     </tbody>
                 </table>
             </div>
-
-            @Html.PagedListPager(Model, page => Url.Action("Index", new
-                {
-                    page,
-                    ViewBag.TimKiem,
-                }), new PagedListRenderOptions
-       {
-           LiElementClasses = new string[] { "page-item" },
-           PageClasses = new string[] { "page-link" },
-           Display = PagedListDisplayMode.IfNeeded
-       })
+            <div class=" d-flex justify-content-center  text-center">
+                <div>
+                    @Html.PagedListPager(Model, Page => Url.Action("Index",
+                             new { Page, ViewBag.TimKiem }),
+                             new PagedListRenderOptions
+                    {
+                        LiElementClasses = new[] { "page-item" },
+                        PageClasses = new[] { "page-link" },
+                        Display = PagedListDisplayMode.IfNeeded
+                    })
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -299,25 +300,25 @@
         @if (TempData["SuccessMessage"] != null)
         {
             <text>
-                showNotification('success', '@Html.Raw(TempData["SuccessMessage"])');
+                    showNotification('success', '@Html.Raw(TempData["SuccessMessage"])');
             </text>
         }
         @if (TempData["ErrorMessage"] != null)
         {
             <text>
-                showNotification('error', '@Html.Raw(TempData["ErrorMessage"])');
+                    showNotification('error', '@Html.Raw(TempData["ErrorMessage"])');
             </text>
         }
         @if (TempData["WarningMessage"] != null)
         {
             <text>
-                showNotification('warning', '@Html.Raw(TempData["WarningMessage"])');
+                    showNotification('warning', '@Html.Raw(TempData["WarningMessage"])');
             </text>
         }
         @if (TempData["InfoMessage"] != null)
         {
             <text>
-                showNotification('info', '@Html.Raw(TempData["InfoMessage"])');
+                    showNotification('info', '@Html.Raw(TempData["InfoMessage"])');
             </text>
         }
 

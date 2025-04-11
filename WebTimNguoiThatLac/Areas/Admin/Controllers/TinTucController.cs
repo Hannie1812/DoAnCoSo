@@ -62,15 +62,15 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
         }
 
         public IActionResult Create()
-        { 
+        {
             return View();
         }
         [HttpPost]
-        public async Task< IActionResult> Create(TinTuc t , IFormFile? HinhAnhCapNhat)
+        public async Task<IActionResult> Create(TinTuc t, IFormFile? HinhAnhCapNhat)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-               
+
                 if (HinhAnhCapNhat != null)
                 {
 
@@ -83,7 +83,7 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
             }
             return View(t);
         }
-        public async Task<string> SaveImage(IFormFile ImageURL, string subFolder )
+        public async Task<string> SaveImage(IFormFile ImageURL, string subFolder)
         {
             if (ImageURL == null || ImageURL.Length == 0)
             {
@@ -135,7 +135,7 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
         public async Task<IActionResult> Update(int id)
         {
             TinTuc x = await db.TinTucs.FindAsync(id);
-            if(x== null)
+            if (x == null)
             {
                 return RedirectToAction("Index");
             }
@@ -143,9 +143,9 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Update(TinTuc t, IFormFile? HinhAnhFile)
+        public async Task<IActionResult> Update(TinTuc t, IFormFile? HinhAnhCapNhat)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 TinTuc x = await db.TinTucs.FindAsync(t.Id);
                 if (x == null)
@@ -153,7 +153,7 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
                     return RedirectToAction("Index");
                 }
 
-                if (HinhAnhFile != null)
+                if (HinhAnhCapNhat != null)
                 {
                     x.TieuDe = t.TieuDe;
                     x.NoiDung = t.NoiDung;
@@ -163,7 +163,7 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
 
                     DeleteImage(x.HinhAnh, "TinTuc");
 
-                    x.HinhAnh = await SaveImage(HinhAnhFile, "TinTuc");
+                    x.HinhAnh = await SaveImage(HinhAnhCapNhat, "TinTuc");
 
                     db.SaveChanges();
                     return RedirectToAction("Index");
@@ -218,7 +218,7 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
                 }
                 DeleteImage(y.HinhAnh, "TinTuc");
                 db.TinTucs.Remove(y);
-                
+
                 db.SaveChanges();
 
                 return Json(new { success = true, message = "Thành Công" });

@@ -92,6 +92,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGluVHVjXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Areas/Admin/Views/TinTuc/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGluVHVjXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Areas/Admin/Views/TrungBay/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJ1bmdCYXlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Areas/Admin/Views/TrungBay/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJ1bmdCYXlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -280,6 +292,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Views/Home/LienHe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaWVuSGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -298,6 +314,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Views/Shared/Components/DanhSachNgang/DanhSachNgang.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGFuaFNhY2hOZ2FuZ1xEYW5oU2FjaE5nYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Views/Shared/Components/NguoiDungNgang/DanhSachNgang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmd1b2lEdW5nTmdhbmdcRGFuaFNhY2hOZ2FuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Views/Shared/Components/TinTucNgang/DanhSachNgang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVGluVHVjTmdhbmdcRGFuaFNhY2hOZ2FuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Views/Shared/Components/TrungBayNgang/DanhSachNgang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVHJ1bmdCYXlOZ2FuZ1xEYW5oU2FjaE5nYW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Views/Shared/Error.cshtml]
@@ -332,8 +360,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltTmd1b2lcVGhlbU5ndW9pQ2FuVGltLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Views/TinTuc/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGluVHVjXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Views/TinTuc/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGluVHVjXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Views/TrungBay/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1bmdCYXlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/USER/Documents/DOANCOSO-TIMNGUOITHAN/DoAnCoSo/WebTimNguoiThatLac/Views/_NotificationPartial.cshtml]

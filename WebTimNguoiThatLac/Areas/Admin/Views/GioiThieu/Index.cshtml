@@ -9,18 +9,18 @@
 }
 
 @section naviHeader {
-<!-- Left navbar links -->
-<ul class="navbar-nav">
-    <li class="nav-item">
-        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-    </li>
-    <li class="nav-item d-none d-sm-inline-block">
-        <a href="/Admin" class="nav-link ">Trang Chủ</a>
-    </li>
-    <li class="nav-item d-none d-sm-inline-block">
-        <a href="/Admin/GioiThieu" class="nav-link active">Giới Thiệu</a>
-    </li>
-</ul>
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/Admin" class="nav-link ">Trang Chủ</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/Admin/GioiThieu" class="nav-link active">Giới Thiệu</a>
+        </li>
+    </ul>
 }
 
 <!-- Thêm vào phần đầu trang -->
@@ -96,7 +96,7 @@
                 <div class="col-md-6 text-right">
                     <div class="btn-group">
                         <a asp-action="Create" asp-area="Admin" asp-controller="GioiThieu"
-                        class="btn btn-light">
+                           class="btn btn-light">
                             Thêm
                         </a>
                     </div>
@@ -248,17 +248,17 @@
                     </tbody>
                 </table>
             </div>
-
-            @Html.PagedListPager(Model, page => Url.Action("Index", new
+            <div class=" d-flex justify-content-center  text-center">
+                @Html.PagedListPager(Model, Page => Url.Action("Index",
+                         new { Page, ViewBag.TimKiem }),
+                         new PagedListRenderOptions
                 {
-                    page,
-                    ViewBag.TimKiem,
-                }), new PagedListRenderOptions
-           {
-               LiElementClasses = new string[] { "page-item" },
-               PageClasses = new string[] { "page-link" },
-               Display = PagedListDisplayMode.IfNeeded
-           })
+                    LiElementClasses = new[] { "page-item" },
+                    PageClasses = new[] { "page-link" },
+                    Display = PagedListDisplayMode.IfNeeded
+                })
+            </div>
+
         </div>
     </div>
 </div>
@@ -271,25 +271,25 @@
         @if (TempData["SuccessMessage"] != null)
         {
             <text>
-            showNotification('success', '@Html.Raw(TempData["SuccessMessage"])');
+                showNotification('success', '@Html.Raw(TempData["SuccessMessage"])');
             </text>
         }
         @if (TempData["ErrorMessage"] != null)
         {
             <text>
-            showNotification('error', '@Html.Raw(TempData["ErrorMessage"])');
+                showNotification('error', '@Html.Raw(TempData["ErrorMessage"])');
             </text>
         }
         @if (TempData["WarningMessage"] != null)
         {
             <text>
-            showNotification('warning', '@Html.Raw(TempData["WarningMessage"])');
+                showNotification('warning', '@Html.Raw(TempData["WarningMessage"])');
             </text>
         }
         @if (TempData["InfoMessage"] != null)
         {
             <text>
-            showNotification('info', '@Html.Raw(TempData["InfoMessage"])');
+                showNotification('info', '@Html.Raw(TempData["InfoMessage"])');
             </text>
         }
 
@@ -319,7 +319,7 @@
                 default: return 'fa-info-circle';
             }
         }
-  
+
         function XoaGioiThieu(id)
         {
             $.ajax({

@@ -4,6 +4,7 @@
 @inject UserManager<ApplicationUser> UserManager
 
 @{
+    ViewData["Title"] = "Chi Tiết Bài Viết";
     List<AnhTimNguoi> dsHinhAnh = ViewBag.DSHinhAnh ?? new List<AnhTimNguoi>();
     AnhTimNguoi daidien = dsHinhAnh.FirstOrDefault(i => i.TrangThai == 1);
     List<BinhLuan> dsBinhLuan = ViewBag.DSBinhLuan ?? new List<BinhLuan>();
@@ -12,21 +13,18 @@
     var isAuthor = Model?.IdNguoiDung == userId;
 }
 
-@{
-    ViewData["Title"] = "Chi Tiết Bài Viết";
-}
-
 <div class="hero-wrap" style="background-image: url('/Templet/images/bg_5.jpg');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
             <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-                <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="/Home">Trang Chủ</a></span> <span>@ViewData["Title"]</span></p>
+                <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="/Home">Home</a></span> <span>@ViewData["Title"]</span></p>
                 <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">@ViewData["Title"]</h1>
             </div>
         </div>
     </div>
 </div>
+
 
 <!-- Notification Area -->
 <div id="notification-area" style="position: fixed; top: 20px; right: 20px; z-index: 9999;"></div>
@@ -703,130 +701,7 @@
             </div>
         </div>
 
-        <!-- Comments Section -->
-        @*<div class="comments-card my-2 ">
-            <div class="comments-header m-2">
-                <div class="d-flex justify-content-between align-items-center m-4">
-                    <h3 class="comments-title mb-0 ">
-                        <i class="far fa-comments me-2"></i>Bình luận
-                        <span class="badge bg-primary ms-2">@dsBinhLuan.Count</span>
-                    </h3>
-                    <button id="toggleCommentsBtn" class="btn btn-outline-primary btn-sm">
-                        <i class="fas fa-comment me-1"></i> Xem bình luận
-                    </button>
-                </div>
-            </div>
-
-            <!-- Comment Form -->
-            <div class="comment-form m-2">
-                <form id="commentForm" asp-action="ThemBinhLuan" asp-controller="TimNguoi" method="post" enctype="multipart/form-data">
-                    <input type="hidden" name="IdBaiViet" value="@Model.Id" />
-                    <input type="hidden" name="UserId" value="@userId" />
-
-                    <div class="form-floating mb-3">
-                        <textarea name="NoiDung" class="form-control" placeholder="Nhập bình luận của bạn" style="min-height: 100px" required></textarea>
-                        <label><i class="far fa-comment-dots me-2"></i>Viết bình luận...</label>
-                    </div>
-
-                    <div class="d-flex justify-content-between align-items-center m-2">
-                        <div class="flex-grow-1 m-3">
-                            <div class="input-group">
-                                <label class="input-group-text"><i class="fas fa-camera"></i></label>
-                                <input type="file" name="HinhAnh" class="form-control" accept="image/*">
-                            </div>
-                           
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary px-4">
-                            <i class="fas fa-paper-plane me-1"></i> Gửi
-                        </button>
-                    </div>
-                    <div class="form-text small">Hỗ trợ ảnh JPEG, PNG (tối đa 5MB)</div>
-                </form>
-            </div>
-
-            <!-- Comments List -->
-            <div id="commentSection" class="d-none">
-                @if (dsBinhLuan.Any())
-                {
-                    foreach (var binhLuan in dsBinhLuan.OrderByDescending(b => b.NgayBinhLuan))
-                    {
-                        <div class="comment-item" id="comment-@binhLuan.Id">
-                            <div class="d-flex">
-                                <!-- Avatar -->
-                                <div class="me-3">
-                                    <div class="comment-avatar">
-                                        @if (!string.IsNullOrEmpty(binhLuan.ApplicationUser?.FullName))
-                                        {
-                                            @binhLuan.ApplicationUser.FullName[0]
-                                        }
-                                        else
-                                        {
-                                            <i class="fas fa-user"></i>
-                                        }
-                                    </div>
-                                </div>
-
-                                <!-- Content -->
-                                <div class="flex-grow-1">
-                                    <div class="comment-header">
-                                        <div>
-                                            <h6 class="comment-author mb-0">
-                                                @binhLuan.ApplicationUser?.FullName
-                                                @if (binhLuan.ApplicationUser?.Id == Model.IdNguoiDung)
-                                                {
-                                                    <span class="badge bg-info ms-2">Tác giả</span>
-                                                }
-                                            </h6>
-                                            <div class="comment-date">
-                                                <i class="far fa-clock me-1"></i>
-                                                @binhLuan.NgayBinhLuan.ToString("dd/MM/yyyy HH:mm")
-                                            </div>
-                                        </div>
-                                        <div>
-                                            @if (binhLuan.ApplicationUser?.Id != userId && user != null)
-                                            {
-                                                <button class="btn btn-link text-danger p-0 report-comment-btn"
-                                                        data-comment-id="@binhLuan.Id"
-                                                        data-bs-toggle="modal"
-                                                        data-bs-target="#reportCommentModal"
-                                                        title="Báo cáo bình luận">
-                                                    <i class="fas fa-flag"></i>
-                                                </button>
-                                            }
-                                        </div>
-                                    </div>
-
-                                    <div class="comment-content">
-                                        @binhLuan.NoiDung
-                                    </div>
-
-                                    @if (!string.IsNullOrEmpty(binhLuan.HinhAnh))
-                                    {
-                                        <div class="mt-2">
-                                            <img src="@binhLuan.HinhAnh"
-                                                 class="comment-image"
-                                                 onclick="showImageModal('@binhLuan.HinhAnh')"
-                                                 alt="Ảnh bình luận"
-                                                 loading="lazy">
-                                        </div>
-                                    }
-                                </div>
-                            </div>
-                        </div>
-                    }
-                }
-                else
-                {
-                    <div class="no-comments text-center py-4">
-                        <i class="far fa-comment-dots fa-3x text-muted mb-3"></i>
-                        <h5 class="text-muted">Chưa có bình luận nào</h5>
-                        <p class="text-muted">Hãy là người đầu tiên bình luận về trường hợp này</p>
-                    </div>
-                }
-            </div>
-        </div>
-        *@
+       
         <!-- Comments Section -->
         <div class="comments-card bg-white rounded-3 shadow-sm mb-4 border">
             <div class="comments-header p-4 border-bottom bg-light rounded-top">

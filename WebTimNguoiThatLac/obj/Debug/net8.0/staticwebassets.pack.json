@@ -9217,6 +9217,10 @@
       "PackagePath": "staticwebassets\\uploads\\BinhLuan\\WIN_20250318_15_59_26_Pro_56278444cf28419db8eeba3ba828d3a2.jpg"
     },
     {
+      "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\BinhLuan\\event-5_37009bfea31441e8bbdf08cc1142023e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\BinhLuan\\event-5_37009bfea31441e8bbdf08cc1142023e.jpg"
+    },
+    {
       "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\BinhLuan\\team-4_fb27cdcb7db4469b96332d1fc3275511.jpg",
       "PackagePath": "staticwebassets\\uploads\\BinhLuan\\team-4_fb27cdcb7db4469b96332d1fc3275511.jpg"
     },
@@ -9263,6 +9267,54 @@
     {
       "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\TinTuc\\bg_7_5a34e1354a3e4f5ba1e0b5c996176ba6.jpg",
       "PackagePath": "staticwebassets\\uploads\\TinTuc\\bg_7_5a34e1354a3e4f5ba1e0b5c996176ba6.jpg"
+    },
+    {
+      "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\TinTuc\\event-4_063236293a04499ea255397b52c97ba3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\TinTuc\\event-4_063236293a04499ea255397b52c97ba3.jpg"
+    },
+    {
+      "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\TrungBayHinhAnh\\1_b71c26c029af473ca33102bfbec3702c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\TrungBayHinhAnh\\1_b71c26c029af473ca33102bfbec3702c.jpg"
+    },
+    {
+      "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\TrungBayHinhAnh\\cause-1_158455876d88491fb6f58de5a2165937.jpg",
+      "PackagePath": "staticwebassets\\uploads\\TrungBayHinhAnh\\cause-1_158455876d88491fb6f58de5a2165937.jpg"
+    },
+    {
+      "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\TrungBayHinhAnh\\cause-2_1f10c9103dc24199a140e51a9504c59f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\TrungBayHinhAnh\\cause-2_1f10c9103dc24199a140e51a9504c59f.jpg"
+    },
+    {
+      "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\TrungBayHinhAnh\\cause-3_51e19c5370e94886ba53dc643026a183.jpg",
+      "PackagePath": "staticwebassets\\uploads\\TrungBayHinhAnh\\cause-3_51e19c5370e94886ba53dc643026a183.jpg"
+    },
+    {
+      "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\TrungBayHinhAnh\\cause-4_c4c03496735146e8b1ef81719785fdf3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\TrungBayHinhAnh\\cause-4_c4c03496735146e8b1ef81719785fdf3.jpg"
+    },
+    {
+      "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\TrungBayHinhAnh\\cause-5_249282f889e84d499195515787a5d5cb.jpg",
+      "PackagePath": "staticwebassets\\uploads\\TrungBayHinhAnh\\cause-5_249282f889e84d499195515787a5d5cb.jpg"
+    },
+    {
+      "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\TrungBayHinhAnh\\cause-6_d0169e95afca425aa5e0ad14b70faa01.jpg",
+      "PackagePath": "staticwebassets\\uploads\\TrungBayHinhAnh\\cause-6_d0169e95afca425aa5e0ad14b70faa01.jpg"
+    },
+    {
+      "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\TrungBayHinhAnh\\cause-6_f23bf995e0e649a8817303f5c50ec1a2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\TrungBayHinhAnh\\cause-6_f23bf995e0e649a8817303f5c50ec1a2.jpg"
+    },
+    {
+      "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\TrungBayHinhAnh\\event-1_2bd00e63e56f4d50ae7044795d9094b0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\TrungBayHinhAnh\\event-1_2bd00e63e56f4d50ae7044795d9094b0.jpg"
+    },
+    {
+      "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\TrungBayHinhAnh\\event-5_1143b09bd1ea4447869d66ffa1589fb2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\TrungBayHinhAnh\\event-5_1143b09bd1ea4447869d66ffa1589fb2.jpg"
+    },
+    {
+      "Id": "E:\\USER\\Documents\\DOANCOSO-TIMNGUOITHAN\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\uploads\\TrungBayHinhAnh\\image_3_086b3986b1ed4d16ad0cc095c709b7ad.jpg",
+      "PackagePath": "staticwebassets\\uploads\\TrungBayHinhAnh\\image_3_086b3986b1ed4d16ad0cc095c709b7ad.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebTimNguoiThatLac.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

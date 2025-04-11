@@ -52,5 +52,19 @@ namespace WebTimNguoiThatLac.Controllers
                 return View(dsTrang);
             }
         }
+
+        public async Task<IActionResult> Details(int id)
+        {
+
+            TinTuc y = db.TinTucs.FirstOrDefault(i => i.Id == id);
+            if (y == null)
+            {
+                return RedirectToAction("Index");
+            }
+            List<TinTuc> dsMoi = await db.TinTucs.OrderByDescending(i => i.NgayDang).Take(10).ToListAsync();
+            ViewBag.DSTinTucMoi = dsMoi;
+            return View(y);
+
+        }
     }
 }
