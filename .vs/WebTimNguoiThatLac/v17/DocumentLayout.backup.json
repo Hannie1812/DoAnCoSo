@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\areas\\admin\\views\\nguoidung\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\areas\\admin\\views\\nguoidung\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\areas\\admin\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\areas\\admin\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\areas\\admin\\controllers\\gioithieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\areas\\admin\\controllers\\gioithieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\areas\\admin\\controllers\\gioithieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\areas\\admin\\controllers\\gioithieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,20 +55,12 @@
       "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|solutionrelative:webtimnguoithatlac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40F4BA7A-D392-4D58-B627-38FD04443231}|WebTimNguoiThatLac\\WebTimNguoiThatLac.csproj|c:\\users\\admin\\onedrive\\desktop\\laptrinhweb\\doancoso\\webtimnguoithatlac\\wwwroot\\templet\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -110,11 +122,11 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
-      "VerticalTabListWidth": 119,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedHeight": 303,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -142,20 +154,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VerifyOTP.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Admin\\Views\\NguoiDung\\VerifyOTP.cshtml",
+              "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Admin\\Views\\NguoiDung\\VerifyOTP.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Admin\\Views\\NguoiDung\\VerifyOTP.cshtml*",
+              "RelativeToolTip": "WebTimNguoiThatLac\\Areas\\Admin\\Views\\NguoiDung\\VerifyOTP.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T12:50:56.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Services\\ChatService.cs",
+              "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Services\\ChatService.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Services\\ChatService.cs",
+              "RelativeToolTip": "WebTimNguoiThatLac\\Services\\ChatService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T12:44:39.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Services\\EmailService.cs",
+              "RelativeToolTip": "WebTimNguoiThatLac\\Services\\EmailService.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAJMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T12:44:15.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAcwGUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwAoAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-10T08:04:39.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ExternalLogin.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
@@ -167,19 +218,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAuwNgAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAADwv78AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T07:58:32.325Z"
+              "WhenOpened": "2025-04-10T07:58:32.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -191,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ExternalLogin.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
@@ -203,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "20250410075255_Intitial1.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Migrations\\20250410075255_Intitial1.cs",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Migrations\\20250410075255_Intitial1.cs",
@@ -215,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Admin\\Controllers\\HomeController.cs",
@@ -227,20 +279,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NguoiDungController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Admin\\Controllers\\NguoiDungController.cs",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Admin\\Controllers\\NguoiDungController.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Admin\\Controllers\\NguoiDungController.cs",
               "RelativeToolTip": "WebTimNguoiThatLac\\Areas\\Admin\\Controllers\\NguoiDungController.cs",
-              "ViewState": "AgIAADoBAAAAAAAAAAAIwDQBAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAUwN8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T07:47:18.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -252,19 +304,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Program.cs",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Program.cs",
               "RelativeToolTip": "WebTimNguoiThatLac\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T03:48:39.901Z"
+              "WhenOpened": "2025-04-10T03:48:39.901Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\appsettings.json",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\appsettings.json",
@@ -276,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ThongTinCaNhan.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Views\\NguoiDung\\ThongTinCaNhan.cshtml",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Views\\NguoiDung\\ThongTinCaNhan.cshtml",
@@ -288,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "CapNhatBaiViet.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Views\\TimNguoi\\CapNhatBaiViet.cshtml",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Views\\TimNguoi\\CapNhatBaiViet.cshtml",
@@ -300,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "ThemNguoiCanTim.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Views\\TimNguoi\\ThemNguoiCanTim.cshtml",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Views\\TimNguoi\\ThemNguoiCanTim.cshtml",
@@ -312,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\wwwroot\\Templet\\css\\style.css",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\wwwroot\\Templet\\css\\style.css",
@@ -324,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Views\\NguoiDung\\Index.cshtml",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Views\\NguoiDung\\Index.cshtml",
@@ -336,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "_LayoutTemplet.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Views\\Shared\\_LayoutTemplet.cshtml",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Views\\Shared\\_LayoutTemplet.cshtml",
@@ -348,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Views\\TinTuc\\Index.cshtml",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Views\\TinTuc\\Index.cshtml",
@@ -360,20 +413,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "NguoiDungController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Controllers\\NguoiDungController.cs",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Controllers\\NguoiDungController.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Controllers\\NguoiDungController.cs",
               "RelativeToolTip": "WebTimNguoiThatLac\\Controllers\\NguoiDungController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAIwFIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T02:18:49.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "TinTucController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Controllers\\TinTucController.cs",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Controllers\\TinTucController.cs",
@@ -385,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Admin\\Views\\Home\\Index.cshtml",
@@ -397,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Admin\\Views\\GioiThieu\\Create.cshtml",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Admin\\Views\\GioiThieu\\Create.cshtml",
@@ -409,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Admin\\Views\\TinTuc\\Create.cshtml",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Admin\\Views\\TinTuc\\Create.cshtml",
@@ -421,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Admin\\Views\\TinTuc\\Index.cshtml",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Admin\\Views\\TinTuc\\Index.cshtml",
@@ -433,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "GioiThieuController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Admin\\Controllers\\GioiThieuController.cs",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Admin\\Controllers\\GioiThieuController.cs",
@@ -441,12 +494,11 @@
               "RelativeToolTip": "WebTimNguoiThatLac\\Areas\\Admin\\Controllers\\GioiThieuController.cs",
               "ViewState": "AgIAALQAAAAAAAAAAAAIwNYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T18:07:41.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T18:07:41.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "TinTucController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LapTrinhWeb\\DoAnCoSo\\WebTimNguoiThatLac\\Areas\\Admin\\Controllers\\TinTucController.cs",
               "RelativeDocumentMoniker": "WebTimNguoiThatLac\\Areas\\Admin\\Controllers\\TinTucController.cs",

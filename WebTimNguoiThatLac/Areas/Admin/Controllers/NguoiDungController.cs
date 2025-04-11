@@ -12,6 +12,7 @@ using System.Security.Cryptography;
 using WebTimNguoiThatLac.Areas.Admin.Models;
 using WebTimNguoiThatLac.Data;
 using WebTimNguoiThatLac.Models;
+using WebTimNguoiThatLac.Services;
 using X.PagedList.Extensions;
 
 namespace WebTimNguoiThatLac.Areas.Admin.Controllers
@@ -22,14 +23,18 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
     {
         private ApplicationDbContext db;
         private UserManager<ApplicationUser> _userManager;
-        private RoleManager<IdentityRole> roleManager;
+        private RoleManager<IdentityRole> _roleManager;
         private SignInManager<ApplicationUser> _signInManager;
+        private readonly EmailService _emailService;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public  NguoiDungController(ApplicationDbContext db, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager)
+        public  NguoiDungController(EmailService emailService, IHttpContextAccessor httpContextAccessor, ApplicationDbContext db, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager)
         {
+            _emailService = emailService;
+            _httpContextAccessor = httpContextAccessor;
             this.db = db;
-            this._userManager = userManager;
-            this.roleManager = roleManager;
+            _userManager = userManager;
+            _roleManager = roleManager;
             _signInManager = signInManager;
         }
        
@@ -344,6 +349,55 @@ namespace WebTimNguoiThatLac.Areas.Admin.Controllers
                 // Nếu thất bại
                 ViewBag.ErrorTitle = "Không thể đăng nhập bằng tài khoản ngoài.";
                 return View("Error");
+            }
+        }
+
+        //Gửi mã OTP xác thực email;
+        [HttpPost]
+        public async Task<IActionResult> SendOTP(string email)
+        {
+            if (string.IsNullOrEmpty(email)) return BadRequest("Email không hợp lệ.");
+
+            // Tạo mã OTP ngẫu nhiên 6 chữ số
+            var otp = new Random().Next(100000, 999999).ToString();
+
+            // Lưu OTP vào Session (hoặc có thể dùng Cache hoặc DB)
+            HttpContext.Session.SetString("OTP", otp);
+            HttpContext.Session.SetString("EmailToVerify", email);
+
+            // Soạn nội dung email
+            var subject = "Mã xác thực OTP từ hệ thống Tìm Người Thất Lạc";
+            var body = $"<p>Chào bạn,</p><p>Mã xác thực OTP của bạn là: <strong>{otp}</strong></p><p>Mã có hiệu lực trong 5 phút.</p>";
+
+            // Gửi mail
+            await _emailService.SendEmailAsync(email, subject, body, isHtml: true);
+
+            return RedirectToAction("VerifyOTP");
+        }
+        // Hiển thị form nhập OTP
+        [HttpGet]
+        public IActionResult VerifyOTP()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult VerifyOTP(string OtpCode, string returnUrl)
+        {
+            string otpSaved = HttpContext.Session.GetString("OTP");
+            string email = HttpContext.Session.GetString("EmailToVerify");
+
+
+            if (OtpCode == otpSaved)
+            {
+                // OTP đúng → cho phép tiếp tục hoặc xác thực thành công
+                TempData["Success"] = "Xác thực OTP thành công!";
+                return Redirect(returnUrl ?? "/");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Mã OTP không đúng. Vui lòng thử lại.");
+                return View();
             }
         }
 
