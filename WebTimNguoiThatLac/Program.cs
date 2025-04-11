@@ -42,6 +42,8 @@ builder.Services.ConfigureApplicationCookie(options =>
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSession();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -53,6 +55,8 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseSession();
+
 app.UseStaticFiles();
 
 app.UseRouting();
